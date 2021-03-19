@@ -9,7 +9,7 @@ git clone https://github.com/ericyd/prisma-bundle-error.git
 cd prisma-bundle-error
 npm i
 npx webpack build
-node -r ./dist/index.js
+DEBUG="*" node -r ./dist/index.js 
 ```
 
 throws error:
