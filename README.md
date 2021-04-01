@@ -1,5 +1,11 @@
 # prisma-bundle-error
 
+This repo was used to demonstrate a bug: [prisma issue 6188](https://github.com/prisma/prisma/issues/6188)
+
+It has since been fixed in prisma `v2.20.1`
+
+---
+
 Steps to reproduce
 
 clone, then
@@ -32,6 +38,6 @@ TypeError: debugLib is not a function
     at Object.<anonymous> (/Users/me/dev/prisma-bundle-error/dist/index.js:87:10)
 ```
 
-Node version: `v14.15.5`
-NPM version: `6.14.11`
-OS: Mac OSX Catalina `10.15.7`
+* Node version: `v14.15.5`
+* NPM version: `6.14.11`
+* OS: Mac OSX Catalina `10.15.7`
